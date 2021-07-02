@@ -1,0 +1,82 @@
+body {
+  background-image: url("./assets/top-view-of-green-grass-background-texture.webp");
+  background-size: cover;
+}
+.flag {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 85%;
+}
+.text {
+  font-family: Anton, impact, sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  font-size: 18vh;
+  color: white;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text__hover {
+  font-family: Anton, impact, sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  font-size: 18vh;
+  color: black;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.flag .flag__hover {
+  display: flex;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+.flag:hover .flag__hover {
+  opacity: 1;
+}
+.black {
+  background-color: black;
+  width: 33%;
+  height: 100%;
+}
+.yellow {
+  background-color: yellow;
+  width: 33%;
+  height: 100%;
+}
+.red {
+  background-color: red;
+  width: 33%;
+  height: 100%;
+}
+.green {
+  background-color: green;
+  width: 33%;
+  height: 100%;
+}
+.white {
+  background-color: white;
+  width: 33%;
+  height: 100%;
+}
+.reditaly {
+  background-color: red;
+  width: 33%;
+  height: 100%;
+}
+@media screen and (min-width: 200px) and (max-width: 1024px) {
+  .text {
+    font-size: 10vh;
+  }
+}
